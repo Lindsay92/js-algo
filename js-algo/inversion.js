@@ -12,7 +12,7 @@ while (min < max) {
     array[max] = array[min];
     array[min] = actual;
     min++;
-    max--; // attention si ++ boucle infini
+    max--; // attention si ++ boucle infinie
 }
 console.log(array);
 
